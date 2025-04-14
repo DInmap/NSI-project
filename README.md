@@ -22,8 +22,6 @@ To create a multi-page website that solves a real-world problem:
 
 ---
 
-## 📁 Project Structure
-
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
