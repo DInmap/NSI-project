@@ -28,3 +28,6 @@ To create a multi-page website that solves a real-world problem:
    ```bash
    git clone https://github.com/your-username/recipe-hub.git
    cd recipe-hub
+👥 Team
+Aydin     Henry     Naji
+
