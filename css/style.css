@@ -30,18 +30,41 @@ body {
   }
   
   .recipe-card {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin: 1rem auto;
-    max-width: 300px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem; /* Space between the image and the details */
+    margin-bottom: 2rem; /* Space between recipe cards */
   }
   
-  .recipe-card img {
-    width: 100%;
+  .recipe-info {
+    flex: 1; /* Image and name take up one part of the space */
+    text-align: center; /* Center the name above the image */
+  }
+  
+  .recipe-info img {
+    width: 150px; /* Fixed width for the image */
     height: auto;
-    border-radius: 8px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .recipe-details {
+    flex: 2; /* Instructions take up more space */
+    text-align: left; /* Align text to the left */
+  }
+  .recipe-card img {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .recipe-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgb(146, 88, 8);
+
   }
   
   footer {
@@ -50,3 +73,9 @@ body {
     background-color: #f87676;
   }
   
+  body main .recipe-card {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 600px;
+  }
