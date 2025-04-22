@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🍽️ Recipe Hub
 
 Welcome to **Recipe Hub** – a simple and functional website for browsing delicious recipes!  
@@ -31,3 +32,5 @@ To create a multi-page website that solves a real-world problem:
 👥 Team
 Aydin     Henry     Naji
 
+=======
+>>>>>>> 8dab867 (Save work before rebase)
